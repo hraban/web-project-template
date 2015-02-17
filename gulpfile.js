@@ -18,7 +18,7 @@ gulp.task('html', function () {
 });
 
 // Files (or browserify resolvable entry points, like npm dirs) in the ext/ directory
-EXTERNAL_LIBS = [
+var EXTERNAL_LIBS = [
     {
         file: './ext/jquery-2.1.3.min.js',
         name: 'jquery'

@@ -1,7 +1,11 @@
+/// <reference path="refs/jquery.d.ts"/>
+
+import $ = require("jquery");
+
 import createH1 = require("createH1");
 
 function helloMain(name: string) {
-    document.body.appendChild(createH1('hello, ' + name + '!'));
+    $('body').append(createH1('hello, ' + name + '!'));
 }
 
 export = helloMain;

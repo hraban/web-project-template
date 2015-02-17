@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "browserify": "^6.3.3",
+    "gulp": "^3.8.10",
+    "gulp-if": "^1.2.5",
+    "gulp-sourcemaps": "^1.2.8",
+    "gulp-typescript": "^2.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
